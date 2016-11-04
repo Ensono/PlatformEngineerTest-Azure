@@ -3,7 +3,7 @@ Do you think you have the DevOps skills to work in a fast paced technical consul
 ## Objectives
 
  1.  Provision two Azure Web Apps and a Traffic Manager namespace using an ARM template.
- 2.  Publish [a Web Deploy Package][package] to both the Azure Web Apps
+ 2.  Publish [a Web Deploy Package][package] to both the Azure Web Apps.
  3.  Using PowerShell, automate the above.
 
 ## Results
