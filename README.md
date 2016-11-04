@@ -2,9 +2,19 @@ Do you think you have the DevOps skills to work in a fast paced technical consul
 
 ## Objectives
 
- 1.  Provision two Azure Web Apps and a Traffic Manager namespace using an ARM template.
+ 1.  Provision two Azure WebApps and a Traffic Manager namespace using an ARM template.
+
+  a.  The Azure WebApps must be in two different regions.
+
+  b.  The Traffic Manager namespace should provide *performance* traffic management across both Azure Regions.
+
  2.  Publish [a Web Deploy Package][package] to both the Azure Web Apps.
+
  3.  Using PowerShell, automate the above.
+
+## Platform Architecture
+
+ ![Architecture Diagram of Proposed Solution][diagram]
 
 ## Results
 
@@ -12,3 +22,4 @@ Commit your changes to a clone of this repository and send us the link, we will 
 
   [amido]: https://www.amido.com/
   [package]: Amido.PlatformEngineer.Test.zip
+  [diagram]: https://cdn.rawgit.com/amido/PlatformEngineerTest-Azure/60724d1c8ecb133c28ad2a66d16dae2f8ddd996b/diagram.svg
